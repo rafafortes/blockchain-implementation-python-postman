@@ -20,14 +20,14 @@ This is a Blockchain project written in Python with the same Bitcoin Blockchain 
 
 ## Screenshots
 
-![Screenshot from 2023-11-15 16-46-14](https://github.com/rafafortes/blockchain-implementation-python-postman/assets/20464782/309b676b-7f30-4138-a72c-b37c60825557)
+![Screenshot from 2023-11-15 16-46-14](https://github.com/rafafortes/blockchain-implementation-python-postman/assets/20464782/c7240bc9-2992-445a-831b-174af28e362f)
 
-![Screenshot from 2023-11-15 16-46-28](https://github.com/rafafortes/blockchain-implementation-python-postman/assets/20464782/91896969-c807-46b4-8653-3841844922ec)
+![Screenshot from 2023-11-15 16-46-28](https://github.com/rafafortes/blockchain-implementation-python-postman/assets/20464782/9333cbcf-46ac-4838-88d6-2944d7382da2)
 
-![Screenshot from 2023-11-15 16-46-36](https://github.com/rafafortes/blockchain-implementation-python-postman/assets/20464782/2aa02080-f5f6-4851-a632-bcf5a2e62a58)
+![Screenshot from 2023-11-15 16-46-36](https://github.com/rafafortes/blockchain-implementation-python-postman/assets/20464782/06efc61c-6b3d-4d97-9ad7-6f5fdcf56ba1)
 
-![Screenshot from 2023-11-15 16-46-43](https://github.com/rafafortes/blockchain-implementation-python-postman/assets/20464782/88be6d60-1e60-48d5-ac34-f9b74005da5f)
+![Screenshot from 2023-11-15 16-46-43](https://github.com/rafafortes/blockchain-implementation-python-postman/assets/20464782/0cfdba35-7969-4f67-aa6b-baa27cd09ce5)
 
-![Screenshot from 2023-11-15 16-46-49](https://github.com/rafafortes/blockchain-implementation-python-postman/assets/20464782/6a541d5d-9a4b-4633-a3b2-ea60204dbac6)
+![Screenshot from 2023-11-15 16-46-49](https://github.com/rafafortes/blockchain-implementation-python-postman/assets/20464782/46a30abd-9d35-40b2-bda2-a8115c06ec53)
 
-![Screenshot from 2023-11-15 16-46-55](https://github.com/rafafortes/blockchain-implementation-python-postman/assets/20464782/81beb8eb-663b-4a43-b0b3-a70f92ee36cc)
+![Screenshot from 2023-11-15 16-46-55](https://github.com/rafafortes/blockchain-implementation-python-postman/assets/20464782/7beb712b-2068-4a4c-8c58-beb93bc4b284)
