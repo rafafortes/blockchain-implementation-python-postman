@@ -1,0 +1,189 @@
+{
+	"info": {
+		"_postman_id": "f6987530-b878-4f6a-b58d-60a455153ee5",
+		"name": "Local Blockchain Python",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1812456"
+	},
+	"item": [
+		{
+			"name": "Get Chain",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{node_5003}}/get_chain",
+					"host": [
+						"{{node_5003}}"
+					],
+					"path": [
+						"get_chain"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Mine Block",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{node_5000}}/mine_block",
+					"host": [
+						"{{node_5000}}"
+					],
+					"path": [
+						"mine_block"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Is Blockchain valid",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{node_5000}}/is_valid",
+					"host": [
+						"{{node_5000}}"
+					],
+					"path": [
+						"is_valid"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Connect node",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nodes\": [\"http://127.0.0.1:5001\",\n              \"http://127.0.0.1:5002\"]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{node_5003}}/connect_node",
+					"host": [
+						"{{node_5003}}"
+					],
+					"path": [
+						"connect_node"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Replace chain",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{node_5003}}/replace_chain",
+					"host": [
+						"{{node_5003}}"
+					],
+					"path": [
+						"replace_chain"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Transaction",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"sender\": \"Raffy\",\n    \"receiver\": \"Satoshi\",\n    \"amount\": \"100\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{node_5001}}/add_transaction",
+					"host": [
+						"{{node_5001}}"
+					],
+					"path": [
+						"add_transaction"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Mine block",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{node_5001}}/mine_block",
+					"host": [
+						"{{node_5001}}"
+					],
+					"path": [
+						"mine_block"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "node_5000",
+			"value": "http://127.0.0.1:5000",
+			"type": "string"
+		},
+		{
+			"key": "node_5001",
+			"value": "http://127.0.0.1:5001",
+			"type": "string"
+		},
+		{
+			"key": "node_5002",
+			"value": "http://127.0.0.1:5002",
+			"type": "string"
+		},
+		{
+			"key": "node_5003",
+			"value": "http://127.0.0.1:5003",
+			"type": "string"
+		}
+	]
+}
